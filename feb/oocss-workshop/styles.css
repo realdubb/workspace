@@ -1,3 +1,85 @@
 /**
 * TODO: Add your reusable styles here
 */
+
+.ContentWidth{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.Header{
+  display: inline-block;
+  background-color: #2F6DB2;
+  width: 100%;
+  height: 50px;
+}
+
+.Nav{
+
+}
+
+.Nav-Item{
+  display: block;
+  float: left;
+  padding: 10px;
+  font-family: Arial black;
+}
+
+.Nav-Item a:link{
+  color: white;
+  text-decoration: none;
+}
+
+.MainContent{
+  padding: 10px;
+}
+
+.MainContent-Title{
+  font-size: 24px;
+}
+
+.MainContent-Subtitle{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.MainContent-Notice{
+  display: inline-block;
+  border: solid;
+  border-color: white;
+  background-color: #F9F9F9;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.Notice--success{
+  color: white;
+  background-color: green;
+}
+
+.Notice--danger{
+  background-color: red;
+  color: white;
+}
+
+
+.OrderedList,
+.OrderedList--striped{
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  margin-left: 5px;
+}
+
+.OrderedList-Item{
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.OrderedList--striped > li:nth-child(even){
+  background-color: #EAEDF9;
+}
