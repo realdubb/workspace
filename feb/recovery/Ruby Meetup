@@ -1,0 +1,29 @@
+Presentation 1
+Ruby 2.0 Features
+Double Splat** - is to a hash what a single splat * is to an array
+Double splat vs optional params
+Preference of parameters from right to left when double splat is used
+
+Module#Append Features
+
+
+Machine Learning in Ruby / Ruby AI
+
+Euclidean Distance - Netflix/recommendation algorithms
+
+Neural Networks
+
+Genetic Algorithm
+https://github.com/rubycuts/genetic-algorithm
+
+
+
+Other discussion:
+
+Origin of ruby
+
+erlang -> elixir (ruby like)
+
+puppet vs ansible
+
+Actioncables - websocket
