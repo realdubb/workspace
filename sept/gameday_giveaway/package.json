@@ -1,0 +1,22 @@
+{
+  "name": "gameday_giveaway",
+  "version": "1.0.0",
+  "description": "Calculate scores of NFL gameday giveaway teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nfl",
+    "gameday",
+    "giveaway",
+    "scores"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "nfl_scores": "^0.1.0",
+    "request": "^2.75.0"
+  }
+}
