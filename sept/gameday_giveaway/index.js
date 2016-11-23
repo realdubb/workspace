@@ -22,9 +22,27 @@ function getHTML(){
 }
 
 
-function parseScoreBoxes(){
+function getScoreBoxes(){
   let $ = cheerio.load(fs.readFileSync('index.html'))
-  console.log($('.scorebox-wrapper'))
+  return $('.scorebox-wrapper')
 }
 
 parseScoreBoxes()
+
+
+/*
+
+Best Team Combination
+Best Team Combination of teams that didn't play each other
+
+
+Teams
+{
+  Chiefs{
+    Score
+    Opponent
+    Home
+  }
+}
+
+*/
